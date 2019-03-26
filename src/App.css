@@ -1,0 +1,188 @@
+body {
+  margin: 0
+}
+
+.pages {
+  padding-top: 80px;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+body {
+  background-image: url(https://ep1.pinkbike.org/p0pb16938084/p0pb16938084.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: black;
+  font-family: Arial, Verdana, sans-serif;
+
+}
+
+/* Navbar and Footer */
+.nav-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #1F3347;
+  width: 100vw;
+  height: 75px;
+  border: solid thin;
+  background-color: #1F3347;
+  position: fixed;
+  top: 0;
+}
+
+.foot-wrapper {
+  width: 100vw;
+  height: 40px;
+  border: solid thin;
+  background-color: #1F3347;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0px;
+  position: bottom;
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center
+}
+
+.foot-text{
+  margin: 13px;
+}
+
+@media (min-width: 800px){
+  .link{
+      border: solid thin;
+      color: white;
+      text-align: center;
+      margin: auto;
+      padding: 12px;
+      text-decoration: none;
+      border-radius: 5px;
+      height: 35px;
+      line-height: 35px;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+  }
+}
+@media (max-width: 801px){
+  .link {
+      border: solid thin;
+      color: white;
+      text-align: center;
+      margin: auto;
+      padding: 3px;
+      text-decoration: none;
+      border-radius: 5px;
+      height: 80%;
+      width: 80%;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+  }
+}
+
+/* links */
+
+.linkedinLink {
+  color: rgb(187, 185, 185);
+  text-decoration: none;
+}
+
+.linkedinLink:hover {
+  color: rgb(131, 131, 131);
+  text-decoration: none;
+  padding-top: 10
+}
+
+.link:active{
+  background-color: red;
+}
+
+.link:focus{
+  background-color: red;
+}
+
+.link:hover{
+  background-color: red;
+}
+
+/* pages and cards */
+
+.eventCard {
+  border: solid thin;
+  background-color: #FFFFFF;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  border-radius: 7px;
+}
+h1{
+  margin-bottom: 5px;
+}
+.eventLink{
+  color: rgb(0, 0, 173);
+  text-decoration: none;
+  width: 150px;
+}
+.eventLink:hover{
+  color: rgb(94, 93, 93);
+  background-color: white;
+}
+
+.form-wrapper{
+  margin: auto;
+  text-align: center;
+  color: red;
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  height: 60px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+
+.about-wrapper {
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+  width: 80%;
+  margin-top: 90px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.saveButton {
+  border: solid thin;
+  border-radius: 5px;
+  width: 60px;
+  margin: auto;
+  background-color: rgb(216, 216, 216);
+}
+.saveButton:hover{
+  background-color: red;
+  border-radius: 5px;
+}
+
+.submitButton {
+  margin: auto;
+  margin-bottom: 10px;
+  border: solid thin;
+  border-radius: 5px;
+}
+.submitButton:hover{
+  background-color: red;
+  border-radius: 5px;
+}
+
+.saved{
+  background-color: gold;
+}
