@@ -6,7 +6,7 @@ const Submitpage = () => {
             <div className="about-box">
                 <h1>Want to include your race on our site?</h1>
                 <p>Email us at: </p>
-                <a className="eventLink" href="admin@mypersonalreactsite.com">admin@mypersonalreactsite</a>
+                <a className="eventLink" href={`mailto:${'jessiejonesofficial@gmail.com'}`}>jessiejonesofficial@gmail.com</a>
             </div>
         </div>
     );
