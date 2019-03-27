@@ -8,7 +8,7 @@ http://nouphill.surge.sh/
 
 1.  Clone the repo:
 
-        https://github.com/jessiemjones/Game-of-Thrones-Nodejs.git
+        https://github.com/jessiemjones/Mountainbike-Event-Finder-frontendapp.git
 
 2.  Install dependencies:
 
